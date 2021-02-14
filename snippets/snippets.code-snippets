@@ -1,0 +1,37 @@
+{
+    "ArrayList": {
+        "prefix": "arrayL",
+        "body": [
+            "ArrayList<${1:DataType}> ${2:Name} = new ArrayList<${1:DataType}>();"
+        ],
+        "description": "ArrayList"
+    },
+    "Scanner": {
+        "prefix": "scan",
+        "body": [
+            "Scanner ${1:Name} = new Scanner(System.in);"
+        ],
+        "description": "Scanner"
+    },
+    "Print": {
+        "prefix": "print",
+        "body": [
+            "System.out.print(${1:name});"
+        ],
+        "description": "Print"
+    },
+    "StringBuilder": {
+        "prefix": "sbuilder",
+        "body": [
+            "StringBuilder ${1:Name} = new StringBuilder($2);"
+        ],
+        "description": "StringBuilder"
+    },
+    "StringBuffer": {
+        "prefix": "sbuffer",
+        "body": [
+            "StringBuffer ${1:Name} = new StringBuffer($2);"
+        ],
+        "description": "StringBuffer"
+    }
+}

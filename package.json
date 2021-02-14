@@ -1,0 +1,26 @@
+{
+    "name": "javasnippet",
+    "displayName": "JavaSnippet",
+    "description": "Simple Java Snippet",
+    "version": "1.0.0",
+    "publisher": "Tansen",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tansen2077/JavaSnippet"
+    },
+    "icon": "java.png",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "java",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
