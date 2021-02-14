@@ -9,7 +9,7 @@ VsCode Knowledge
 ## Extension Settings
 
 Download and Unzip the files in vscode extension location:
-C:\Users\*UserName*\.vscode\extensions
+C:\Users\ *UserName* \.vscode\extensions
 
 ## Example:
 
